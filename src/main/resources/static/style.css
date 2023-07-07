@@ -1,0 +1,104 @@
+body{
+    background-color: whitesmoke;
+}
+/* Navbar container */
+.navBar {
+  overflow: auto;
+  background-color: #333;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navBar a {
+  float: left;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding:20px 78.2px;
+  text-decoration: none;
+}
+
+/* Add a red background color to navbar links on hover */
+.navBar a:hover {
+  background-color: blueviolet;
+}
+
+/*Filter button*/
+.filterButton,
+#filter
+{
+    text-align: center;
+    font: 500 1rem 'Quicksand',sans-serif;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.chart1-container {
+    display: flex;
+    padding-bottom: 40px;
+    height: 400px;
+    justify-content: center;
+}
+
+#chart1 {
+    width: 65%;
+}
+
+.chart2-container {
+    height: 400px;
+    display: flex;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    justify-content: center;
+}
+
+#chart2 {
+    width: 65%;
+}
+
+.chart3-container{
+    height: 400px;
+    display: flex;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    justify-content: center;
+}
+
+#chart3{
+    width: 65%;
+}
+
+.chartX1-container {
+    width: 80%;
+    margin: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+
+.chartX2-container {
+    width: 40%;
+    margin: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.chartX3-container
+{
+    width: 70%;
+    margin: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+}
+
+
+.chart-container {
+    width: 60%;
+    margin: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+
+
