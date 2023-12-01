@@ -3,7 +3,6 @@ package com.Dashboard.Dashboard.readCSV;
 import com.Dashboard.Dashboard.Entity.Data;
 import com.opencsv.CSVReader;
 import com.opencsv.exceptions.CsvValidationException;
-import jakarta.persistence.Column;
 
 import java.io.FileReader;
 import java.io.IOException;
