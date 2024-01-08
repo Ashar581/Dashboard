@@ -18,7 +18,7 @@ public class readCsv {
 
          String end_year;
          String citylng;
-        String citylat;
+         String citylat;
          String intensity;
          String sector;
          String topic;
@@ -41,7 +41,6 @@ public class readCsv {
         CSVReader csvReader = new CSVReader(new FileReader("Data.csv"));
 
         String [] readLine;
-        int count=0;
 
         csvReader.readNext();
 
