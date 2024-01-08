@@ -16,25 +16,25 @@ public class readCsv {
 
         List<Data> getData = new ArrayList<>();
 
-         String end_year;
-         String citylng;
-         String citylat;
-         String intensity;
-         String sector;
-         String topic;
-         String insight;
-         String swot;
-         String url;
-         String region;
-         String start_year;
-         String impact;
-         String added;
-         String published;
-         String city;
-         String country;
-         String relevance;
-         String pestle;
-         String source;
+        String end_year;
+        String citylng;
+        String citylat;
+        String intensity;
+        String sector;
+        String topic;
+        String insight;
+        String swot;
+        String url;
+        String region;
+        String start_year;
+        String impact;
+        String added;
+        String published;
+        String city;
+        String country;
+        String relevance;
+        String pestle;
+        String source;
         String title;
         String likelihood;
 
@@ -69,7 +69,6 @@ public class readCsv {
             likelihood = readLine[20];
 
 
-
             Data data=new Data();
             data.setAdded(added);
             data.setCity(city);
@@ -92,7 +91,6 @@ public class readCsv {
             data.setTitle(title);
             data.setTopic(topic);
             data.setUrl(url);
-
 
             getData.add(data);
 
