@@ -12,12 +12,12 @@
 
     <div class="navBar">
             <a href="/">Home</a>
-            <a href="/Topics">Topic</a>
             <a href="/Sector">Sector</a>
+            <a href="/Topics">Topic</a>
             <a href="/Year">Year</a>
             <a href="/Pestle">Pestle</a>
             <a href="/Country">Country</a>
-        </div>
+    </div>
 
     <br>
      <div class="filterButton">
