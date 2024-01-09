@@ -3,6 +3,6 @@ COPY . .
 RUN mvn clean package -DskipTests
 
 FROM openjdk:17.0.1-jdk-slim
-COPY --from=build /target/Dashboard-0.0.1-SNAPSHOT.jar Dashboard.jar
+COPY --from=build /target/*.war Dashboard.war
 EXPOSE 8080
-ENTRYPOINT ["java","-jar","Dashboard.jar"]
+ENTRYPOINT ["java","-jar","Dashboard.war"]
