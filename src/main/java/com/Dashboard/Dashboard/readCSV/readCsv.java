@@ -38,7 +38,7 @@ public class readCsv {
         String title;
         String likelihood;
 
-        CSVReader csvReader = new CSVReader(new FileReader("Data.csv"));
+        CSVReader csvReader = new CSVReader(new FileReader("src/Data.csv"));
 
         String [] readLine;
 
