@@ -4,6 +4,6 @@ RUN mvn clean package -DskipTests
 
 FROM openjdk:17.0.1-jdk-slim
 COPY --from=build /target/*.war Dashboard.war
-COPY --from=builder /app/test.csv /Data.csv
+COPY --from=builder /app/Data.csv /Data.csv
 EXPOSE 8080
 ENTRYPOINT ["java","-jar","Dashboard.war"]
