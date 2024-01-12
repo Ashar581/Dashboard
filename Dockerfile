@@ -2,7 +2,10 @@ FROM maven:3-openjdk-17 AS build
 COPY . .
 RUN mvn clean package -DskipTests
 
-npm install react-chartjs-2 chart.js --save \
+FROM node:5
+COPY . .
+RUN npm install chart.js@"<=3.5.1"
+CMD ["npm","start"]
 
 FROM openjdk:17.0.1-jdk-slim
 COPY --from=build /target/*.war Dashboard.war
