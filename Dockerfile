@@ -3,7 +3,8 @@ COPY . .
 RUN mvn clean package -DskipTests
 
 FROM openjdk:17.0.1-jdk-slim
-RUN npm install -g chart.js
+
+RUN git clone https://github.com/just4give/chartjs-node-canvas-lambda
 COPY --from=build /target/*.war Dashboard.war
 COPY --from=build /Data.csv /Data.csv
 EXPOSE 8080
