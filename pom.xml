@@ -31,14 +31,6 @@
 			<artifactId>tomcat-embed-jasper</artifactId>
 		</dependency>
 
-		<!-- Other dependencies -->
-		<dependency>
-			<groupId>javax.servlet</groupId>
-			<artifactId>jstl</artifactId>
-			<version>1.2</version>
-		</dependency>
-		<!-- Other dependencies -->
-
 		<!-- https://mvnrepository.com/artifact/jakarta.servlet.jsp.jstl/jakarta.servlet.jsp.jstl-api -->
 		<!-- for jakarta servlet jsp -->
 		<dependency>
