@@ -21,7 +21,6 @@ COPY --from=build /target/*.war Dashboard.war
 
 # Copy the JSTL libraries into the Tomcat lib directory
 COPY --from=build lib/jstl-1.2.jar /usr/local/tomcat/lib/
-COPY --from=build lib/standard-1.1.2.jar /usr/local/tomcat/lib/
 
 # Expose the default Tomcat port
 EXPOSE 8080
